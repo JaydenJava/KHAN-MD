@@ -113,7 +113,7 @@ const port = process.env.PORT || 9090;
   console.log('Bot connected to whatsapp ✅')
   
   let up = `*Hello there JAVA-MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet JAVA-MD WhatsApp Bot.\n\n *Thanks for using JAVA-MD \ud83d\udea9* \n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/JaydenJava/JAVA-MD\n\n> © Powered BY Jayden Java \ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/7zfdcq.jpg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://qu.ax/gclri.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -245,7 +245,7 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-  if(senderNumber.includes("923146190772")){
+  if(senderNumber.includes("256745944178")){
   if(isReact) return
   m.react("🦋")
    }
