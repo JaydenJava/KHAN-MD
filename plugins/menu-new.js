@@ -1,4 +1,4 @@
-const config = require('../config');
+    const config = require('../config');
 const { cmd, commands } = require('../command');
 const { runtime } = require('../lib/functions');
 const axios = require('axios');
@@ -55,7 +55,7 @@ cmd({
                 return await conn.sendMessage(
                     from,
                     {
-                        image: { url: config.MENU_IMAGE_URL || 'https://qu.ax/VFmjR.jpg' },
+                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/7zfdcq.jpg' },
                         caption: menuCaption,
                         contextInfo: contextInfo
                     },
@@ -423,7 +423,7 @@ cmd({
                                 await conn.sendMessage(
                                     senderID,
                                     {
-                                        image: { url: config.MENU_IMAGE_URL || 'https://qu.ax/VFmjR.jpg' },
+                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/7zfdcq.jpg' },
                                         caption: selectedMenu.content,
                                         contextInfo: contextInfo
                                     },
